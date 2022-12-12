@@ -1,65 +1,116 @@
 body {
-	background-color: black;
+  background-color: black;
 }
 
 #pokeBall {
-	height: 50px ;
-	width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 #greatBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  
 }
 
 #fastBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #heavyBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #lureBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #luxuryBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #masterBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #safariBall {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #container {
-	display: flex;
+  display: flex;
 }
 
 #pokeButton {
-	flex: 50%;
-	background-color: black;
-	color: white;
+  flex: 50%;
+  background-color: black;
+  color: white;
 }
 
 #upgradeMenu {
-	flex: 50%;
-	background-color: black;
-	color: white;
+  flex: 50%;
+  background-color: black;
+  color: white;
+  border: 25px groove white;
+  border-color: silver
+  
 }
 
 #pageTitle {
-	background-color: black;
-	color: white;
-	text-align: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#upgradeMenuTitle {
+  text-align: center;
+}
+
+#buyButtons {
+  background-color: white;
+  color: black;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+
+p {
+  text-align: center;
+  padding: 0;
+  margin: 2px;
 }
