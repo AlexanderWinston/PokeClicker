@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+}
+
+#pokeBall {
+	height: 50px ;
+	width: 50px;
+}
+
+#greatBall {
+	height: 50px;
+	width: 50px;
+}
+
+#fastBall {
+	height: 50px;
+	width: 50px;
+}
+
+#heavyBall {
+	height: 50px;
+	width: 50px;
+}
+
+#lureBall {
+	height: 50px;
+	width: 50px;
+}
+
+#luxuryBall {
+	height: 50px;
+	width: 50px;
+}
+
+#masterBall {
+	height: 50px;
+	width: 50px;
+}
+
+#safariBall {
+	height: 50px;
+	width: 50px;
+}
+
+#container {
+	display: flex;
+}
+
+#pokeButton {
+	flex: 50%;
+	background-color: black;
+	color: white;
+}
+
+#upgradeMenu {
+	flex: 50%;
+	background-color: black;
+	color: white;
+}
+
+#pageTitle {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
