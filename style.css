@@ -10,9 +10,6 @@ body {
   padding-top: 300px;
 }
 
-#pokeBall:hover {
-	transform: 1.2px;
-}
 
 
 #greatBall {
@@ -96,7 +93,7 @@ body {
   flex: 50%;
   background-color: black;
   color: white;
-  border: 10px groove white;
+  border: 10px ridge white;
   border-color: silver
 }
 
@@ -112,7 +109,7 @@ body {
   flex: 50%;
   background-color: black;
   color: white;
-  border: 10px groove white;
+  border: 10px ridge white;
   border-color: silver
   
 }
