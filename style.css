@@ -228,6 +228,10 @@ body {
   border-radius: 10px;
 }
 
+#buyButtons:hover {
+  background-color: black;
+  color: white;
+}
 p {
   margin: 0;
   text-align: center;
