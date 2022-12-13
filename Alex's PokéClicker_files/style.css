@@ -14,171 +14,120 @@ body {
   height: 50px;
   width: 50px;
   display: block;
+  margin: auto;
   padding:7px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .greatBall {
   text-align: center;
-  
-  padding: 5px;
-  
 }
 
 #fastBall {
   height: 50px;
   width: 50px;
   display: block;
- 
+  margin: auto;
   padding:7px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .fastBall {
   text-align: center;
-  
-  padding: 5px
-}
-
-#quickBall{
-  height: 50px;
-  width: 50px;
-  display: block;
- 
-  padding:7px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.quickBall{
-  text-align: center;
-
-  padding: 5px;
 }
 
 #heavyBall {
   height: 50px;
   width: 50px;
   display: block;
+  margin: auto;
   padding:7px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .heavyBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #lureBall {
   height: 50px;
   width: 50px;
   display: block;
-  
+  margin: auto;
   padding:7px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .lureBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #luxuryBall {
   height: 50px;
   width: 50px;
   display: block;
+  margin: auto;
   padding:7px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .luxuryBall {
   text-align: center;
- 
-  padding: 5px
 }
 
 #masterBall {
   height: 50px;
   width: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding:7px;
 }
 
 .masterBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #safariBall {
   height: 50px;
   width: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding:7px;
 }
 
 .safariBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #duskBall {
   height: 50px;
   width: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding:7px;
 }
 
 .duskBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #ultraBall {
   height: 50px;
   width: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding:7px;
-  
 }
 
 .ultraBall {
   text-align: center;
-  
-  padding: 5px
 }
 
 #container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 #pokeButton {
   background-color: black;
   color: white;
-  border: 4px ridge white;
+  border: 5px ridge white;
   border-color: silver;
-  width: 250px;
-  min-width: 250px;
-  max-width: 250px;
+  width: 30%;
 }
 
 #pokeButton h2 {
@@ -191,16 +140,12 @@ body {
 #upgradeMenu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
   color: white;
-  border: 4px ridge white;
+  border: 5px ridge white;
   border-color: silver;
-  width: 500px;
-  height: 325px;
-  min-width: 550px;
-  max-width: 500px;
-  
+  width: 400px;
 }
 
 #pageTitle {
@@ -222,13 +167,6 @@ body {
 #buyButtons {
   background-color: white;
   color: black;
-  margin-bottom: 2px;
+  margin-bottom: 15px;
   margin-top: 2px;
-  width: 75px;
-  border-radius: 10px;
-}
-
-p {
-  margin: 0;
-  text-align: center;
 }
