@@ -1,17 +1,20 @@
 const countElement = document.getElementById("count");
 
-let count = 0;
+let count = 50;
+let counter = 1
 
-countElement.innerText = "Pokéball Count:" + count;
+countElement.innerText = "Pokéballs Owned:" + count;
 
 function increaseCount() {
-  count++;
-  countElement.innerText = "Pokéball Count:" + count;
+  count = count + counter;
+  countElement.innerText = "Pokéballs Owned:" + count;
 }
 
 function increaseCountLure() {
   if (count >= 50){
-  count++;
-  countElement.innerText = "Pokéball Count:" + count;
+    count = count - 50
+   counter+=2;
+  countElement.innerText = "Pokéballs Owned:" + count;
   }
 }
+
